@@ -1,0 +1,24 @@
+{
+
+    "manifest_version": 2,
+    "name": "Real Price - PCPartPicker",
+    "version": "1.0",
+  
+    "description": "Adds a browser action icon to the toolbar. When visiting product pages from pcpartpicker.com, click the button to fetch and display current prices. See https://github.com/swimninja247/RealPriceForPCPartPicker/",
+    "homepage_url": "https://github.com/swimninja247/RealPriceForPCPartPicker/",
+    "icons": {
+      "48": "icons/icon.svg"
+    },
+  
+    "permissions": [
+      "activeTab"
+    ],
+  
+    "browser_action": {
+      "default_icon": "icons/icon.svg",
+      "default_title": "Real Price - PCPartPicker",
+      "default_popup": "popup/toggle_prices.html"
+    }
+  
+}
+  
